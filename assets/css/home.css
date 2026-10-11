@@ -1,0 +1,649 @@
+/* ===========================================================
+   HOME PAGE
+=========================================================== */
+
+/* Hero Section */
+
+.hero{
+    min-height:92vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(135deg,#fff8fb 0%,#fdeef5 100%);
+    overflow:hidden;
+    position:relative;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    width:550px;
+    height:550px;
+    background:#f8c8dc;
+    border-radius:50%;
+    opacity:.18;
+    top:-180px;
+    right:-150px;
+}
+
+.hero::after{
+    content:"";
+    position:absolute;
+    width:350px;
+    height:350px;
+    background:#d63384;
+    opacity:.08;
+    border-radius:50%;
+    bottom:-120px;
+    left:-120px;
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+}
+
+.hero-content h5{
+
+    color:var(--primary);
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+    font-weight:600;
+
+}
+
+.hero-content h1{
+
+    font-size:62px;
+
+    margin:20px 0;
+
+    line-height:1.2;
+
+}
+
+.hero-content p{
+
+    font-size:18px;
+
+    max-width:550px;
+
+    margin-bottom:35px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn-outline-custom{
+
+    padding:14px 32px;
+
+    border:2px solid var(--primary);
+
+    border-radius:40px;
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.btn-outline-custom:hover{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+.hero-image{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    max-width:520px;
+
+    animation:floatImage 4s ease-in-out infinite;
+
+}
+
+@keyframes floatImage{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+/* ===================================================
+        CATEGORY SECTION
+=================================================== */
+
+.categories-section{
+
+    padding:90px 0;
+
+}
+
+.category-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+    text-align:center;
+
+}
+
+.category-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.category-card img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+}
+
+.category-content{
+
+    padding:25px;
+
+}
+
+.category-content h4{
+
+    margin-bottom:20px;
+
+}
+/* ==========================================
+        FEATURED PRODUCTS
+========================================== */
+
+.featured-products{
+
+    padding:90px 0;
+
+    background:#fff;
+
+}
+
+.product-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.product-image{
+
+    overflow:hidden;
+
+}
+
+.product-image img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+    transition:.4s;
+
+}
+
+.product-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.product-content{
+
+    padding:20px;
+
+    text-align:center;
+
+}
+
+.product-content h5{
+
+    min-height:55px;
+
+    margin-bottom:15px;
+
+}
+
+.price{
+
+    margin-bottom:20px;
+
+}
+
+.price del{
+
+    color:#999;
+
+    margin-right:8px;
+
+}
+
+.price span{
+
+    font-size:22px;
+
+    color:var(--primary);
+
+    font-weight:bold;
+
+}
+/* ===================================================
+        WHY CHOOSE US
+=================================================== */
+
+.why-choose{
+
+    padding:90px 0;
+
+    background:#fff8fb;
+
+}
+
+.why-card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    height:100%;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.why-icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#ffb5d2,#d63384);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-bottom:25px;
+
+}
+
+.why-icon i{
+
+    color:#fff;
+
+    font-size:38px;
+
+}
+
+.why-card h4{
+
+    margin-bottom:15px;
+
+}
+
+.why-card p{
+
+    margin-bottom:0;
+
+    color:#666;
+
+}
+/* ===================================================
+        TESTIMONIALS
+=================================================== */
+
+.testimonials-section{
+
+    padding:90px 0;
+
+    background:#ffffff;
+
+}
+
+.testimonial-card{
+
+    background:#fff8fb;
+
+    border-radius:20px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.testimonial-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.testimonial-image{
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    margin:0 auto 20px;
+
+    border:4px solid var(--primary-light);
+
+}
+
+.testimonial-card h4{
+
+    margin-bottom:5px;
+
+}
+
+.testimonial-card small{
+
+    display:block;
+
+    color:#777;
+
+    margin-bottom:15px;
+
+}
+
+.stars{
+
+    color:#ffc107;
+
+    margin-bottom:20px;
+
+}
+
+.testimonial-card p{
+
+    font-style:italic;
+
+    margin-bottom:0;
+
+    line-height:1.8;
+
+}   
+/* ===================================================
+        NEWSLETTER
+=================================================== */
+
+.newsletter-section{
+
+    padding:90px 0;
+
+    background:#fff8fb;
+
+}
+
+.newsletter-box{
+
+    background:linear-gradient(135deg,#d63384,#ff7db3);
+
+    color:#fff;
+
+    border-radius:25px;
+
+    padding:60px;
+
+    box-shadow:0 20px 40px rgba(214,51,132,.25);
+
+}
+
+.newsletter-tag{
+
+    display:inline-block;
+
+    background:rgba(255,255,255,.15);
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+.newsletter-box h2{
+
+    color:#fff;
+
+    margin-bottom:20px;
+
+}
+
+.newsletter-box p{
+
+    color:#fff;
+
+}
+
+.newsletter-form .form-control{
+
+    height:58px;
+
+    border:none;
+
+}
+
+.newsletter-form .btn{
+
+    border-radius:12px;
+
+}
+
+.contact-buttons{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+/* ==========================================
+        LOADER
+========================================== */
+
+#loader{
+
+    position:fixed;
+
+    inset:0;
+
+    background:#ffffff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:99999;
+
+    transition:.4s;
+
+}
+
+.loader-spinner{
+
+    width:60px;
+
+    height:60px;
+
+    border:6px solid #eee;
+
+    border-top:6px solid var(--primary);
+
+    border-radius:50%;
+
+    animation:spin 1s linear infinite;
+
+}
+
+@keyframes spin{
+
+    100%{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+/* ==========================================
+        SCROLL TOP
+========================================== */
+
+#scrollTopBtn{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:50px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    display:none;
+
+    z-index:999;
+
+    transition:.3s;
+
+}
+
+#scrollTopBtn:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/* ==========================================
+        PROGRESS BAR
+========================================== */
+
+#scrollProgress{
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    width:0;
+
+    height:4px;
+
+    background:var(--primary);
+
+    z-index:99999;
+
+}

@@ -1,0 +1,125 @@
+/* ==========================================
+                FOOTER
+========================================== */
+
+.footer{
+
+    background:#1d1d1d;
+
+    color:#ffffff;
+
+    padding:90px 0 30px;
+
+}
+
+.footer h2{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.footer h5{
+
+    margin-bottom:25px;
+
+    color:white;
+
+}
+
+.footer p{
+
+    color:#cccccc;
+
+    line-height:1.8;
+
+}
+
+.footer-links{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.footer-links li{
+
+    margin-bottom:12px;
+
+}
+
+.footer-links a{
+
+    color:#cccccc;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:var(--primary-light);
+
+    padding-left:8px;
+
+}
+
+.footer-social{
+
+    margin-top:25px;
+
+}
+
+.footer-social a{
+
+    width:45px;
+
+    height:45px;
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#333;
+
+    color:white;
+
+    border-radius:50%;
+
+    margin-right:10px;
+
+    transition:.35s;
+
+}
+
+.footer-social a:hover{
+
+    background:var(--primary);
+
+    transform:translateY(-5px);
+
+}
+
+.footer-bottom{
+
+    text-align:center;
+
+    margin-top:20px;
+
+}
+
+.footer input{
+
+    border-radius:50px;
+
+    padding:12px 20px;
+
+    border:none;
+
+}

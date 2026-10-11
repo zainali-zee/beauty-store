@@ -1,0 +1,256 @@
+/* ==========================================
+        IMAGE PREVIEW
+========================================== */
+.dashboard-content{
+
+    margin-left:290px;
+
+    margin-top:70px;
+
+    /* width:calc(100% - 260px); */
+
+    min-height:calc(100vh - 70px);
+
+    padding:30px;
+
+    background:#f5f6fa;
+
+    overflow-x:hidden;
+
+}
+@media (max-width:770px) {
+    .dashboard-content{
+        margin: 0 !important;
+    }
+}
+
+.image-preview-box{
+
+    border:1px solid #ddd;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    background:#fafafa;
+
+    text-align:center;
+
+}
+
+.image-preview-box img{
+
+    width:220px;
+
+    height:220px;
+
+    object-fit:cover;
+
+    margin-top:15px;
+
+}
+
+.gallery-preview-box{
+
+    border:1px solid #ddd;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    background:#fafafa;
+
+    min-height:260px;
+
+}
+
+.gallery-preview-box img{
+
+    width:90px;
+
+    height:90px;
+
+    object-fit:cover;
+
+}
+
+/* ==========================================
+        MODAL
+========================================== */
+
+.modal-xl{
+
+    max-width:1100px;
+
+}
+
+.modal-body{
+
+    max-height:70vh;
+
+    overflow-y:auto;
+
+}
+/* ==========================================
+        GALLERY
+========================================== */
+
+.gallery-item{
+
+    position:relative;
+
+    display:inline-block;
+
+}
+
+.gallery-thumb{
+
+    width:90px;
+
+    height:90px;
+
+    object-fit:cover;
+
+    border-radius:8px;
+
+    border:1px solid #ddd;
+
+}
+
+.gallery-item button{
+
+    position:absolute;
+
+    top:-8px;
+
+    right:-8px;
+
+    width:28px;
+
+    height:28px;
+
+    border-radius:50%;
+
+    padding:0;
+
+}
+/* ==========================================
+        EDIT GALLERY
+========================================== */
+
+.gallery-item{
+
+position:relative;
+
+display:inline-block;
+
+transition:.3s;
+
+}
+
+.gallery-item:hover{
+
+transform:scale(1.05);
+
+}
+
+.gallery-thumb{
+
+width:90px;
+
+height:90px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+border:1px solid #ddd;
+
+box-shadow:0 4px 10px rgba(0,0,0,.08);
+
+}
+
+.gallery-item button{
+
+position:absolute;
+
+top:-8px;
+
+right:-8px;
+
+width:28px;
+
+height:28px;
+
+padding:0;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+box-shadow:0 3px 8px rgba(0,0,0,.2);
+
+}
+
+#edit_main_preview{
+
+max-width:220px;
+
+max-height:220px;
+
+border-radius:12px;
+
+object-fit:cover;
+
+box-shadow:0 6px 15px rgba(0,0,0,.08);
+
+}
+/* ==========================================
+        DELETE PRODUCT
+========================================== */
+
+.product-removing{
+
+    opacity:0;
+
+    transform:translateX(50px);
+
+    transition:all .35s ease;
+
+}
+
+/* ==========================================
+        TOAST
+========================================== */
+
+.toast-container{
+
+    position:fixed;
+
+    top:20px;
+
+    right:20px;
+
+    z-index:9999;
+
+}
+
+.toast{
+
+    min-width:320px;
+
+}
+
+.toast-body{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}

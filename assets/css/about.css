@@ -1,0 +1,103 @@
+/* ==========================================
+        PAGE BANNER
+========================================== */
+
+.page-banner{
+
+    background:linear-gradient(135deg,#d63384,#ff7db3);
+
+    color:#fff;
+
+    padding:100px 0;
+
+    text-align:center;
+
+}
+
+.banner-content h1{
+
+    font-size:48px;
+
+    margin-bottom:20px;
+
+}
+
+/* ==========================================
+        ABOUT
+========================================== */
+
+.about-section{
+
+    padding:90px 0;
+
+}
+
+.about-image img{
+
+    border-radius:20px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.10);
+
+}
+
+.section-subtitle{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+.about-content h2{
+
+    margin:20px 0;
+
+}
+
+.about-content p{
+
+    line-height:1.9;
+
+    color:#666;
+
+}
+
+/* ==========================================
+        STATS
+========================================== */
+
+.company-stats{
+
+    padding:90px 0;
+
+    background:#fff8fb;
+
+}
+
+.stat-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.stat-card h2{
+
+    color:var(--primary);
+
+    font-size:42px;
+
+}

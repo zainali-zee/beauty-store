@@ -1,0 +1,138 @@
+/* =====================================================
+   NAVBAR
+===================================================== */
+
+.custom-navbar{
+
+    background:rgba(255,255,255,.90);
+
+    backdrop-filter:blur(12px);
+
+    padding:16px 0;
+
+    transition:.35s;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+.navbar-brand{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:var(--primary)!important;
+
+}
+
+.navbar-brand i{
+
+    margin-right:8px;
+
+}
+
+.navbar-nav .nav-link{
+
+    color:#333!important;
+
+    font-weight:500;
+
+    margin:0 12px;
+
+    position:relative;
+
+    transition:.3s;
+
+}
+
+.navbar-nav .nav-link:hover{
+
+    color:var(--primary)!important;
+
+}
+
+.navbar-nav .nav-link::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:0;
+
+    height:2px;
+
+    left:0;
+
+    bottom:-4px;
+
+    background:var(--primary);
+
+    transition:.3s;
+
+}
+
+.navbar-nav .nav-link:hover::after{
+
+    width:100%;
+
+}
+
+.navbar-icons{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.navbar-icons a{
+
+    color:#333;
+
+    font-size:20px;
+
+    transition:.3s;
+
+}
+
+.navbar-icons a:hover{
+
+    color:var(--primary);
+
+    transform:translateY(-3px);
+
+}
+/* ==========================================
+   Sticky Navbar Effect
+========================================== */
+
+.navbar-scrolled{
+
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+
+    background:rgba(255,255,255,.98);
+
+}
+
+/* ==========================================
+   Active Navigation
+========================================== */
+
+.navbar-nav .nav-link.active{
+
+    color:var(--primary)!important;
+
+    font-weight:600;
+
+}
+
+.navbar-nav .nav-link.active::after{
+
+    width:100%;
+
+}

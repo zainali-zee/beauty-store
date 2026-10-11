@@ -1,0 +1,354 @@
+/* ===================================================
+        PRODUCTS PAGE
+=================================================== */
+
+.products-page{
+
+    padding:90px 0;
+
+    background:#fff8fb;
+
+}
+
+.featured-badge{
+
+    position:absolute;
+
+    top:15px;
+
+    left:15px;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    padding:6px 14px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+    z-index:10;
+
+}
+
+.product-card{
+
+    position:relative;
+
+    background:#fff;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.product-image img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+}
+
+.product-content{
+
+    padding:20px;
+
+    text-align:center;
+
+}
+
+.price{
+
+    margin:15px 0;
+
+}
+
+.price span{
+
+    color:var(--primary);
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+
+.price del{
+
+    color:#999;
+
+    margin-right:10px;
+
+}
+/* ==========================================
+        SEARCH FORM
+========================================== */
+
+.search-form{
+
+    margin-bottom:50px;
+
+}
+
+.search-form .form-control{
+
+    height:55px;
+
+    border-radius:12px 0 0 12px;
+
+}
+
+.search-form .btn{
+
+    border-radius:0 12px 12px 0;
+
+}
+/* ==========================================
+        CATEGORY FILTER
+========================================== */
+
+.search-form .form-select{
+
+height:55px;
+
+border-radius:12px;
+
+}
+
+.product-category{
+
+font-size:14px;
+
+color:#888;
+
+margin-bottom:10px;
+
+}
+/* ==========================================
+        SORT DROPDOWN
+========================================== */
+
+.search-form .form-select{
+
+    height:55px;
+
+    border-radius:12px;
+
+}
+
+.search-form .btn{
+
+    height:55px;
+
+}
+/* ==========================================
+        PAGINATION
+========================================== */
+
+.pagination{
+
+    margin-top:50px;
+
+}
+
+.page-link{
+
+    color:var(--primary);
+
+    border-radius:10px;
+
+    margin:0 5px;
+
+    border:none;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.page-link:hover{
+
+    background:var(--primary-light);
+
+    color:#fff;
+
+}
+
+.page-item.active .page-link{
+
+    background:var(--primary);
+
+    border-color:var(--primary);
+
+    color:#fff;
+
+}
+/* ==========================================
+        PRODUCT CARD POLISH
+========================================== */
+
+.product-image{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.product-image img{
+
+    transition:.45s;
+
+}
+
+.product-card:hover .product-image img{
+
+    transform:scale(1.08);
+
+}
+
+.discount-badge{
+
+    position:absolute;
+
+    top:15px;
+
+    right:15px;
+
+    background:#dc3545;
+
+    color:#fff;
+
+    padding:6px 12px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+    z-index:5;
+
+}
+
+.product-icons{
+
+    position:absolute;
+
+    top:15px;
+
+    left:15px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+    opacity:0;
+
+    transition:.35s;
+
+}
+
+.product-card:hover .product-icons{
+
+    opacity:1;
+
+}
+
+.product-icons a{
+
+    width:42px;
+
+    height:42px;
+
+    background:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#333;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.10);
+
+    transition:.3s;
+
+}
+
+.product-icons a:hover{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+.product-category{
+
+    color:#777;
+
+    font-size:14px;
+
+    margin-bottom:10px;
+
+}
+
+.product-category i{
+
+    color:var(--primary);
+
+    margin-right:5px;
+
+}
+
+.stock{
+
+    margin-bottom:12px;
+
+    font-size:14px;
+
+    font-weight:500;
+
+}
+
+.available{
+
+    color:#198754;
+
+}
+
+.unavailable{
+
+    color:#dc3545;
+
+}
+
+.product-content{
+
+    padding:22px;
+
+}
+
+.product-content .btn-main{
+
+    width:100%;
+
+}

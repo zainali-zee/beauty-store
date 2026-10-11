@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+build/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+config/database.php
+config/settings.php
+includes/config.php
+
+# Database dumps and backups
+*.sql
+*.sql.gz
+*.dump
+*.bak
+*.backup
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+cache/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local development files
+.phpunit.cache/

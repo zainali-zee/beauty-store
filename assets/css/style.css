@@ -1,0 +1,291 @@
+/* ===========================================================
+   SCS STAR BEAUTY
+   Global Stylesheet
+   Version: 1.0
+=========================================================== */
+
+/* ===========================
+   CSS VARIABLES
+=========================== */
+
+:root{
+
+    --primary:#d63384;
+    --primary-dark:#b61d6d;
+    --primary-light:#f8c8dc;
+
+    --secondary:#fff8fb;
+
+    --accent:#d4af37;
+
+    --dark:#222222;
+
+    --text:#555555;
+
+    --light:#ffffff;
+
+    --gray:#f5f5f5;
+
+    --border:#ececec;
+
+    --radius:15px;
+
+    --shadow:0 10px 30px rgba(0,0,0,.08);
+
+    --transition:.35s ease;
+
+}
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--secondary);
+
+    color:var(--text);
+
+    overflow-x:hidden;
+
+}
+
+/* ===========================
+   TYPOGRAPHY
+=========================== */
+
+h1,h2,h3,h4,h5,h6{
+
+    font-family:'Playfair Display',serif;
+
+    color:var(--dark);
+
+    font-weight:700;
+
+}
+
+p{
+
+    line-height:1.8;
+
+    margin-bottom:1rem;
+
+}
+
+/* ===========================
+   LINKS
+=========================== */
+
+a{
+
+    text-decoration:none;
+
+    transition:var(--transition);
+
+}
+
+/* ===========================
+   IMAGES
+=========================== */
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+/* ===========================
+   SECTION
+=========================== */
+
+section{
+
+    padding:90px 0;
+
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn-main{
+
+    display:inline-block;
+
+    background:linear-gradient(135deg,#ff7db3,#d63384);
+
+    color:#fff;
+
+    padding:14px 34px;
+
+    border:none;
+
+    border-radius:40px;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+.btn-main:hover{
+
+    transform:translateY(-4px);
+
+    color:#fff;
+
+    box-shadow:0 15px 35px rgba(214,51,132,.30);
+
+}
+
+/* ===========================
+   SECTION TITLE
+=========================== */
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.section-title span{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+}
+
+.section-title h2{
+
+    margin-top:12px;
+
+    font-size:42px;
+
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.card{
+
+    border:none;
+
+    border-radius:var(--radius);
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/* ===========================
+   FORM CONTROLS
+=========================== */
+
+.form-control{
+
+    border-radius:12px;
+
+    padding:12px 16px;
+
+    border:1px solid var(--border);
+
+}
+
+.form-control:focus{
+
+    box-shadow:none;
+
+    border-color:var(--primary);
+
+}
+
+/* ===========================
+   UTILITIES
+=========================== */
+
+.text-primary-custom{
+
+    color:var(--primary);
+
+}
+
+.bg-primary-custom{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+.shadow-custom{
+
+    box-shadow:var(--shadow);
+
+}
+
+.rounded-custom{
+
+    border-radius:var(--radius);
+
+}
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary);
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#f1f1f1;
+
+}

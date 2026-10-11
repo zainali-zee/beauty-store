@@ -1,0 +1,563 @@
+.product-details{
+
+padding:90px 0;
+
+background:#fff8fb;
+
+}
+
+.product-image-box{
+
+background:#fff;
+
+padding:25px;
+
+border-radius:20px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.product-image-box img{
+
+width:100%;
+
+border-radius:15px;
+
+}
+/* ==========================================
+        PRODUCT GALLERY
+========================================== */
+
+.product-gallery{
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}
+
+.gallery-thumb{
+
+    width:90px;
+
+    height:90px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    border:3px solid transparent;
+
+    transition:.3s;
+
+}
+
+.gallery-thumb:hover{
+
+    transform:scale(1.05);
+
+}
+
+.active-thumb{
+
+    border-color:var(--primary);
+
+}
+/* ==========================================
+        PRODUCT INFORMATION
+========================================== */
+
+.product-info{
+
+    padding:10px;
+
+}
+
+.product-category-badge{
+
+    display:inline-block;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    margin-bottom:20px;
+
+    font-size:14px;
+
+}
+
+.product-title{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+.product-brand{
+
+    color:#666;
+
+    margin-bottom:20px;
+
+}
+
+.product-price{
+
+    margin:25px 0;
+
+}
+
+.product-price del{
+
+    color:#999;
+
+    margin-right:15px;
+
+    font-size:22px;
+
+}
+
+.product-price span{
+
+    font-size:34px;
+
+    font-weight:bold;
+
+    color:var(--primary);
+
+}
+
+.discount-text{
+
+    display:inline-block;
+
+    margin-left:15px;
+
+    background:#198754;
+
+    color:#fff;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+}
+
+.product-stock{
+
+    margin-bottom:25px;
+
+}
+
+.short-description{
+
+    line-height:1.9;
+
+    color:#666;
+
+    margin-bottom:30px;
+
+}
+
+.product-meta{
+
+    border-top:1px solid #eee;
+
+    border-bottom:1px solid #eee;
+
+    padding:20px 0;
+
+    margin-bottom:30px;
+
+}
+
+.product-meta div{
+
+    margin-bottom:10px;
+
+}
+
+.product-buttons{
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}
+/* ==========================================
+        PRODUCT TABS
+========================================== */
+
+.product-tabs{
+
+    margin-top:40px;
+
+}
+
+.product-tabs .nav-link{
+
+    color:#444;
+
+    font-weight:600;
+
+    border-radius:30px;
+
+    margin-right:10px;
+
+    padding:12px 25px;
+
+}
+
+.product-tabs .nav-link.active{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+.tab-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    line-height:2;
+
+    color:#555;
+
+    min-height:220px;
+
+}
+/* ==========================================
+        RELATED PRODUCTS
+========================================== */
+
+.related-products{
+
+    padding:90px 0;
+
+    background:#ffffff;
+
+}
+
+.related-products .product-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.related-products .product-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.related-products .product-image img{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+}
+
+.related-products .product-content{
+
+    padding:20px;
+
+    text-align:center;
+
+}
+/* ==========================================
+        PRODUCT POLISH
+========================================== */
+
+.breadcrumb-section{
+
+    background:#ffffff;
+
+    padding:20px 0;
+
+}
+
+.breadcrumb{
+
+    margin:0;
+
+    background:none;
+
+}
+
+.product-image-box{
+
+    overflow:hidden;
+
+}
+
+.product-image-box img{
+
+    transition:.45s;
+
+}
+
+.product-image-box:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.product-rating{
+
+    margin-bottom:25px;
+
+    color:#ffc107;
+
+    font-size:18px;
+
+}
+
+.product-rating span{
+
+    color:#555;
+
+    margin-left:10px;
+
+    font-size:15px;
+
+}
+
+.share-buttons{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:25px;
+
+}
+
+.share-buttons a{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#fff;
+
+    color:#444;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.share-buttons a:hover{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+.product-buttons{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.product-buttons .btn{
+
+    padding:12px 25px;
+
+}
+
+.tab-card{
+
+    transition:.35s;
+
+}
+
+.tab-card:hover{
+
+    transform:translateY(-5px);
+
+}
+/* ==========================================
+        MISSION & VISION
+========================================== */
+
+.mission-vision{
+
+    padding:90px 0;
+
+    background:#ffffff;
+
+}
+
+.info-card{
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    height:100%;
+
+    transition:.35s;
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.icon-box{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:28px;
+
+    margin-bottom:25px;
+
+}
+
+/* ==========================================
+        WHY CHOOSE US
+========================================== */
+
+.why-choose{
+
+    padding:90px 0;
+
+    background:#fff8fb;
+
+}
+
+.choose-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.choose-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.choose-icon{
+
+    width:80px;
+
+    height:80px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    margin-bottom:25px;
+
+}
+
+.choose-card h4{
+
+    margin-bottom:20px;
+
+}
+
+.choose-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}

@@ -1,0 +1,315 @@
+/* ==========================================
+        SETTINGS PAGE
+========================================== */
+
+.page-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+.page-header h2{
+
+    margin-bottom:5px;
+
+}
+
+.page-header p{
+
+    color:#777;
+
+    margin:0;
+
+}
+
+/* ==========================================
+        MAIN BOX
+========================================== */
+
+.dashboard-box{
+
+    background:#ffffff;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+/* ==========================================
+        SETTINGS SECTION
+========================================== */
+
+.settings-section{
+
+    background:#fff;
+
+    border:1px solid #ececec;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    margin-bottom:30px;
+
+}
+
+.settings-section h4{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:25px;
+
+    color:#d63384;
+
+    font-weight:600;
+
+    border-bottom:1px solid #eee;
+
+    padding-bottom:15px;
+
+}
+
+.settings-section h4 i{
+
+    font-size:22px;
+
+}
+
+/* ==========================================
+        FORM
+========================================== */
+
+.form-label{
+
+    font-weight:600;
+
+    margin-bottom:8px;
+
+}
+
+.form-control,
+
+.form-select,
+
+textarea{
+
+    border-radius:10px;
+
+    min-height:45px;
+
+}
+
+textarea{
+
+    resize:vertical;
+
+}
+
+/* ==========================================
+        IMAGE PREVIEW
+========================================== */
+.image-preview{
+
+    width:170px;
+
+    height:170px;
+
+    margin:auto;
+
+    border:2px dashed #ddd;
+
+    border-radius:12px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow:hidden;
+
+    background:#fafafa;
+
+    transition:.3s;
+
+}
+
+.image-preview:hover{
+
+    border-color:#d63384;
+
+}
+.image-preview{
+
+    border:2px dashed #ddd;
+
+    border-radius:12px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow:hidden;
+
+    background:#fafafa;
+
+}
+.image-preview img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:contain;
+
+    padding:10px;
+
+}
+.image-preview i{
+
+    font-size:50px;
+
+    color:#bbb;
+
+}
+
+/* ==========================================
+        SAVE BUTTON
+========================================== */
+
+.save-btn{
+
+    padding:12px 35px;
+
+    font-size:16px;
+
+    border-radius:10px;
+
+}
+
+/* ==========================================
+        RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .dashboard-box{
+
+        padding:20px;
+
+    }
+
+    .settings-section{
+
+        padding:20px;
+
+    }
+
+    .page-header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:15px;
+
+    }
+
+    .image-preview{
+
+        width:120px;
+
+        height:120px;
+
+    }
+
+}
+/* ==========================================
+        CONTACT SECTION
+========================================== */
+
+.settings-section textarea{
+
+    min-height:120px;
+
+}
+/* ==========================================
+        SOCIAL MEDIA
+========================================== */
+
+.settings-section .form-label i{
+
+    width:22px;
+
+    text-align:center;
+
+    margin-right:6px;
+
+}
+/* ==========================================
+        SEO SECTION
+========================================== */
+
+.settings-section small{
+
+    display:block;
+
+    margin-top:6px;
+
+    color:#777;
+
+}
+
+.save-btn{
+
+    min-width:220px;
+
+    font-weight:600;
+
+}
+/* ==========================================
+        SAVE BUTTON
+========================================== */
+
+.save-btn{
+
+    min-width:220px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.save-btn:disabled{
+
+    opacity:.75;
+
+    cursor:not-allowed;
+
+}
+
+/* ==========================================
+        ALERTS
+========================================== */
+
+.alert{
+
+    border-radius:12px;
+
+}
